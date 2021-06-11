@@ -209,7 +209,6 @@ button:hover {
 
 @media (min-width: 500px) {
 }
-
 header nav a {
   margin: 5%;
 }
@@ -217,8 +216,13 @@ header nav a {
   background-size: cover;
   max-width: 100%;
 }
+
+/*Artist Section Styling*/
 .artists-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.bio {
+  font-size: 1.2rem;
 }
