@@ -207,12 +207,15 @@ button:hover {
 
 /*Mobile Styling*/
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   /*Nav Section Styling*/
+  header {
+    width: 100%;
+  }
 
+  /*Title Container Styling*/
   .title-container div {
     background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
   }
 
@@ -223,13 +226,17 @@ button:hover {
     justify-content: space-around;
     align-items: center;
   }
-  .artist {
-    width: 50%;
+  .artists-container img {
+    height: 2%;
   }
-  .artist img {
-    height: 50%;
+  .artist a {
+    font-size: 1.5rem;
+  }
+  .artist {
+    width: 60%;
   }
   .bio {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    word-wrap: inherit;
   }
 }
