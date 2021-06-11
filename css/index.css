@@ -208,21 +208,28 @@ button:hover {
 /*Mobile Styling*/
 
 @media (min-width: 500px) {
-}
-header nav a {
-  margin: 5%;
-}
-.title-container div {
-  background-size: cover;
-  max-width: 100%;
-}
+  /*Nav Section Styling*/
 
-/*Artist Section Styling*/
-.artists-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.bio {
-  font-size: 1.2rem;
+  .title-container div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  /*Artist Section Styling*/
+  .artists-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .artist {
+    width: 50%;
+  }
+  .artist img {
+    height: 50%;
+  }
+  .bio {
+    font-size: 1.5rem;
+  }
 }
